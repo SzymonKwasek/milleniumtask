@@ -1,0 +1,23 @@
+$mainWidth: calc(100vw - 30rem);
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    &__header {
+        height: 5rem;
+        width: $mainWidth;
+        position: fixed;
+        top: 0;
+        background-color: red;
+    }
+
+    &__footer {
+        height: 5rem;
+        width: $mainWidth;
+        position: fixed;
+        bottom: 0;
+        background-color: green;
+    }
+}
